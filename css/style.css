@@ -1,0 +1,263 @@
+* {
+    margin: 0px;
+}
+
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: darkred;
+}
+
+.teks-opening {
+    margin-left: 50px;
+    margin-top: 200px;
+    font-family: verdana;
+    font-size: 30px;
+    color: darkred;
+}
+
+.deskripsi {
+    margin-left: 50px;
+    font-family: math;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: darkred;
+}
+
+.logo {
+    
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../assets/Logo.png);
+    background-size: cover;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav > a {
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-family: system-ui;
+    font-size: 15px;
+    color: wheat;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.banner {
+    height: 578px;
+    width: 1366px;
+    
+    background-image: url(../assets/Welcome.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: verdana;
+    padding-bottom: 50px;
+    color: darkred;
+    position: relative;
+}
+
+.about-us header {
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+.about-us p {
+    margin-top: 20px;
+    font-family: math;
+    font-size: 20px;
+}
+
+.dimsum {
+    display: flex;
+    align-items: center; 
+}
+
+.side-photo {
+    background-image: url(../assets/Dimsum.png);
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    flex-shrink: 0;
+    margin-left: 20px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-menu {
+    padding-top: 50px;
+    margin-left: 50px;
+    font-family: verdana;
+    font-size: 30px;
+    color: darkred;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.menu {
+    
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+    background-size:cover;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.menu:hover {
+    transform: scale(1.2);
+}
+
+.menu-item p {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.menu-1 {
+    background-image: url(../assets/baozi.jpg);
+    background-position: -25px;
+    
+}
+
+
+
+.menu-2 {
+    background-image: url(../assets/hakau.jpg);
+    background-position-x: 1px;
+    background-position-y: 1px;
+}
+
+.menu-3 {
+    background-image: url(../assets/siumai.jpg);
+    background-position-x: -28px;
+}
+
+.list-menu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.menu-item {
+    text-align: -webkit-center;
+}
+
+.message-us {
+    margin-left: 50px;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
+.message-us h1 {
+    font-family: verdana;
+    font-size: 40px;
+    color: darkred;
+    margin-top: 30px;
+}
+
+.box {
+    border: 1px solid;
+    width: 500px;
+    height: 300px;
+    margin-right: 100px
+
+}
+
+.wrapper-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 30px;
+}
+
+input[type="text"].pesan {
+    width: 280px;
+    height: 50px;
+}
+
+input[type="date"] {
+    width: 200px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 30px;
+}
+
+form {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+form p {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="radio"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+form input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
