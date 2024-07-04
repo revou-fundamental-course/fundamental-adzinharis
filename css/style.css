@@ -60,7 +60,7 @@ nav a:hover {
 
 .banner {
     height: 578px;
-    width: 1366px;
+    width: 100%;
     
     background-image: url(../assets/Welcome.png);
     background-size: cover;
