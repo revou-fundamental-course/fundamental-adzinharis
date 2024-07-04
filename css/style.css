@@ -175,12 +175,27 @@ nav a:hover {
     margin-top: 30px;
 }
 
+.box-shadow {
+    background-color:#fff;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 50px;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+.box p {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
 .box {
-    border: 1px solid;
+    padding-top: 20px;
     width: 500px;
     height: 300px;
     margin-right: 100px
-
 }
 
 .wrapper-2 {

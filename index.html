@@ -23,7 +23,7 @@
 
     <main>
 
-        <!-- Bannerr -->
+        <!-- Banner -->
 
         <section id="Home">
 
@@ -101,51 +101,48 @@
         <hr/>
 
         <!-- Message Us -->
-
         <section class="message-us" id="Message-us">
-
             <header>
-                <h1>
-                    Message Us
-                </h1>
+                <h1>Message Us</h1>
             </header>
-
+    
             <div class="wrapper-2">
-
-            <form action="login.php" method="POST">
-                
+                <form id="messageForm">
                     <p>
                         <label>Nama</label>
                         <input type="text" name="nama" placeholder="Nama">
                     </p>
-
+    
                     <p>
                         <label>Tanggal Lahir</label>
                         <input type="date" name="tanggal" placeholder="Tanggal Lahir">
                     </p>
-
+    
                     <p>
                         <label>Jenis Kelamin</label>
-                        <input type="radio" name="gender"> Laki-laki
-                        <input type="radio" name="gender"> Perempuan
+                        <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+                        <input type="radio" name="gender" value="Perempuan"> Perempuan
                     </p>
-
+    
                     <p>
                         <label>Pesan</label>
-                        <input class="pesan"  type="text" name="pesan" placeholder="Pesan" >
+                        <input class="pesan" type="text" name="pesan" placeholder="Pesan">
                     </p>
-
+    
                     <p>
                         <input type="submit" name="submit" value="Submit">
                     </p>
-                
-                    
-            </form>
-
-            <div class="box"></div>
-
+                </form>
+    
+                <div class="box-shadow">
+                    <div class="box">
+                        <p>Nama: <span id="displayNama"></span></p>
+                        <p>Tanggal Lahir: <span id="displayTanggal"></span></p>
+                        <p>Jenis Kelamin: <span id="displayGender"></span></p>
+                        <p>Pesan: <span id="displayPesan"></span></p>
+                    </div>
+                </div>
             </div>
-
         </section>
 
         <hr/>
